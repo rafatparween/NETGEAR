@@ -130,7 +130,7 @@ export default function Header() {
           {/* Navigation Links */}
           <nav className="hidden md:flex space-x-6">
             <a href="#" className="hover:text-gray-600">HOME SOLUTIONS</a>
-            <a href="#" className="hover:text-gray-600">BUSINESS SOLUTIONS</a>
+            <a href="/service" className="hover:text-gray-600">SERVICES</a>
             <a href="#" className="hover:text-gray-600">AV SOLUTIONS</a>
             <a href="#" className="hover:text-gray-600">SUPPORT</a>
             <a href="#" className="hover:text-gray-600">SHOP OFFERS</a>

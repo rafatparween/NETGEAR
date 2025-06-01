@@ -4,6 +4,11 @@ import Navbar from "./Components/Navbar";
 import NetgearSupport from "./Components/NetgearSupport";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Banner from "./Components/Banner";
+import SupportSection from "./Components/SupportSection";
+import Grid from "./Components/Grid";
+import RoutersSupport from "./Components/RoutersSupport";
+import TollFreeSupport from "./Components/TollFreeSupport";
 
 export default function Home() {
   return (
@@ -11,6 +16,11 @@ export default function Home() {
       <Navbar/>
       <NetgearSupport/>
       <Contact/>
+      <Banner/>
+      <SupportSection/>
+      <Grid/>
+      <RoutersSupport/>
+      <TollFreeSupport/>
       <Footer/>
     </>
   );
